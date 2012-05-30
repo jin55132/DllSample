@@ -1,0 +1,10 @@
+==========================================================================================
+= How to set up this source code
+==========================================================================================
+Create a new console project. Make it an empty project and add the source 
+file(DLL_Test.cpp is the explicit linking example, DLL_Test_implicit.cpp is implicit).
+------------------------------------------------------------------------------------------
+To use implicit linking you must set up your linker to link to the file "DLL_Tutorial.lib"
+------------------------------------------------------------------------------------------
+To use explicit linking you must place the file "DLL_Tutroal.DLL" in the directory that 
+your compiler outputs the final .exe
